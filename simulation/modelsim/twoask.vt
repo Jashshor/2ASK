@@ -1,0 +1,56 @@
+`timescale 1 ps/ 1 ps
+module twoask_vlg_tst();
+// constants                                           
+// general purpose registers
+reg eachvec;
+// test vector input registers
+reg clk;
+// wires  
+wire fenpinA;
+wire fenpinB;
+wire fenpinC;
+wire m_squence;
+wire [7:0]  counter;
+wire [7:0]  sin;
+wire [7:0]  two_ask;    
+wire [9:0]  pin_da_dataout;    
+wire fpga_ext_trig;                                     
+wire pin_da_clk;
+wire pin_da_reset;
+wire pin_da_sel;
+wire pin_da_wr;
+wire f_ref_c;
+
+
+// assign statements (if any)                          
+twoask i1 (
+// port map - connection between master ports and signals/registers   
+	.clk(clk),
+	.f_ref_c(f_ref_c),
+	.fpga_ext_trig(fpga_ext_trig),
+	.m_squence(m_squence),
+	.pin_da_clk(pin_da_clk),
+	.pin_da_dataout(pin_da_dataout),
+	.pin_da_reset(pin_da_reset),
+	.pin_da_sel(pin_da_sel),
+	.pin_da_wr(pin_da_wr),
+	.sin(sin),
+	.two_ask(two_ask),
+	.fenpinA(fenpinA),
+	.fenpinB(fenpinB),
+	.fenpinC(fenpinC),
+	.counter(counter)
+);
+initial                                                
+begin                                                  
+  clk = 0;                                         
+$display("Running testbench");                       
+end                                                    
+always                                                                
+begin                                                  
+    #100000 clk=~clk;                                                 
+// @eachvec;                                              
+// --> end                                             
+end                                                    
+endmodule
+

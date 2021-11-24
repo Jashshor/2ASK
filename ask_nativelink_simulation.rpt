@@ -1,0 +1,105 @@
+Info: Start Nativelink Simulation process
+
+========= EDA Simulation Settings =====================
+
+Sim Mode              :  Gate
+Family                :  cycloneivgx
+Quartus root          :  c:/altera/13.0sp1/quartus/bin64/
+Quartus sim root      :  c:/altera/13.0sp1/quartus/eda/sim_lib
+Simulation Tool       :  modelsim-altera
+Simulation Language   :  verilog
+Simulation Mode       :  GUI
+Sim Output File       :  ask.vo
+Sim SDF file          :  ask__verilog.sdo
+Sim dir               :  simulation\modelsim
+
+=======================================================
+
+Info: Starting NativeLink simulation with ModelSim-Altera software
+Sourced NativeLink script c:/altera/13.0sp1/quartus/common/tcl/internal/nativelink/modelsim.tcl
+Warning: File ask_run_msim_gate_verilog.do already exists - backing up current file as ask_run_msim_gate_verilog.do.bak11
+Probing transcript
+ModelSim-Altera Info: # Reading F:/ModelSimAE/modelsim_ae/tcl/vsim/pref.tcl
+ModelSim-Altera Info: # do ask_run_msim_gate_verilog.do
+ModelSim-Altera Info: # if {[file exists gate_work]} {
+ModelSim-Altera Info: # 	vdel -lib gate_work -all
+ModelSim-Altera Info: # }
+ModelSim-Altera Info: # vlib gate_work
+ModelSim-Altera Info: # vmap work gate_work
+ModelSim-Altera Info: # Model Technology ModelSim PE vmap 10.3d Lib Mapping Utility 2014.10 Oct  7 2014
+ModelSim-Altera Info: # vmap -modelsim_quiet work gate_work 
+ModelSim-Altera Info: # Copying F:/ModelSimAE/modelsim_ae/win32aloem/../modelsim.ini to modelsim.ini
+ModelSim-Altera Info: # Modifying modelsim.ini
+ModelSim-Altera Warning: # ** Warning: Copied F:/ModelSimAE/modelsim_ae/win32aloem/../modelsim.ini to modelsim.ini.
+ModelSim-Altera Info: #          Updated modelsim.ini.
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # vlog -vlog01compat -work work +incdir+. {ask.vo}
+ModelSim-Altera Info: # Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+ModelSim-Altera Info: # Start time: 16:16:25 on Nov 24,2021
+ModelSim-Altera Info: # vlog -reportprogress 300 -vlog01compat -work work "+incdir+." ask.vo 
+ModelSim-Altera Info: # -- Compiling module twoask
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # Top level modules:
+ModelSim-Altera Info: # 	twoask
+ModelSim-Altera Info: # End time: 16:16:25 on Nov 24,2021, Elapsed time: 0:00:00
+ModelSim-Altera Info: # Errors: 0, Warnings: 0
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # vlog -vlog01compat -work work +incdir+C:/Users/lenovo/Desktop/2ASK-master/simulation/modelsim {C:/Users/lenovo/Desktop/2ASK-master/simulation/modelsim/twoask.vt}
+ModelSim-Altera Info: # Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+ModelSim-Altera Info: # Start time: 16:16:25 on Nov 24,2021
+ModelSim-Altera Info: # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/lenovo/Desktop/2ASK-master/simulation/modelsim" C:/Users/lenovo/Desktop/2ASK-master/simulation/modelsim/twoask.vt 
+ModelSim-Altera Info: # -- Compiling module twoask_vlg_tst
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # Top level modules:
+ModelSim-Altera Info: # 	twoask_vlg_tst
+ModelSim-Altera Info: # End time: 16:16:25 on Nov 24,2021, Elapsed time: 0:00:00
+ModelSim-Altera Info: # Errors: 0, Warnings: 0
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # vsim -t 1ps -L altera_mf_ver -L altera_ver -L lpm_ver -L sgate_ver -L cycloneiv_hssi_ver -L cycloneiv_pcie_hip_ver -L cycloneiv_ver -L gate_work -L work -voptargs="+acc"  twoask_vlg_tst
+ModelSim-Altera Info: # vsim -gui -l msim_transcript -do "ask_run_msim_gate_verilog.do" 
+ModelSim-Altera Info: # Start time: 16:16:26 on Nov 24,2021
+ModelSim-Altera Info: # //  ModelSim ALTERA 10.3d Oct  7 2014 
+ModelSim-Altera Info: # //
+ModelSim-Altera Info: # //  Copyright 1991-2014 Mentor Graphics Corporation
+ModelSim-Altera Info: # //  All Rights Reserved.
+ModelSim-Altera Info: # //
+ModelSim-Altera Info: # //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+ModelSim-Altera Info: # //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+ModelSim-Altera Info: # //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+ModelSim-Altera Info: # //
+ModelSim-Altera Info: # Loading work.twoask_vlg_tst
+ModelSim-Altera Info: # Loading work.twoask
+ModelSim-Altera Info: # Loading cycloneiv_ver.cycloneiv_ram_block
+ModelSim-Altera Info: # Loading cycloneiv_ver.cycloneiv_ram_register
+ModelSim-Altera Info: # Loading cycloneiv_ver.cycloneiv_ram_pulse_generator
+ModelSim-Altera Info: # Loading altera_ver.dffeas
+ModelSim-Altera Info: # Loading cycloneiv_ver.cycloneiv_lcell_comb
+ModelSim-Altera Info: # Loading cycloneiv_ver.cycloneiv_clkctrl
+ModelSim-Altera Info: # Loading cycloneiv_ver.cycloneiv_mux41
+ModelSim-Altera Info: # Loading cycloneiv_ver.cycloneiv_ena_reg
+ModelSim-Altera Info: # Loading cycloneiv_ver.cycloneiv_io_obuf
+ModelSim-Altera Info: # Loading cycloneiv_ver.cycloneiv_io_ibuf
+ModelSim-Altera Info: # Loading cycloneiv_ver.cycloneiv_jtag
+ModelSim-Altera Warning: # ** Warning: (vsim-3017) C:/Users/lenovo/Desktop/2ASK-master/simulation/modelsim/twoask.vt(26): [TFMPC] - Too few port connections. Expected 19, found 15.
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: #         Region: /twoask_vlg_tst/i1
+ModelSim-Altera Warning: # ** Warning: (vsim-3722) C:/Users/lenovo/Desktop/2ASK-master/simulation/modelsim/twoask.vt(26): [TFMPC] - Missing connection for port 'altera_reserved_tms'.
+ModelSim-Altera Info: # 
+ModelSim-Altera Warning: # ** Warning: (vsim-3722) C:/Users/lenovo/Desktop/2ASK-master/simulation/modelsim/twoask.vt(26): [TFMPC] - Missing connection for port 'altera_reserved_tck'.
+ModelSim-Altera Info: # 
+ModelSim-Altera Warning: # ** Warning: (vsim-3722) C:/Users/lenovo/Desktop/2ASK-master/simulation/modelsim/twoask.vt(26): [TFMPC] - Missing connection for port 'altera_reserved_tdi'.
+ModelSim-Altera Info: # 
+ModelSim-Altera Warning: # ** Warning: (vsim-3722) C:/Users/lenovo/Desktop/2ASK-master/simulation/modelsim/twoask.vt(26): [TFMPC] - Missing connection for port 'altera_reserved_tdo'.
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # Loading altera_ver.PRIM_GDFF_LOW
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # add wave *
+ModelSim-Altera Info: # view structure
+ModelSim-Altera Info: # .main_pane.structure.interior.cs.body.struct
+ModelSim-Altera Info: # view signals
+ModelSim-Altera Info: # .main_pane.objects.interior.cs.body.tree
+ModelSim-Altera Info: # run 1000 us
+ModelSim-Altera Info: # Running testbench
+ModelSim-Altera Info: # End time: 16:30:08 on Nov 24,2021, Elapsed time: 0:13:42
+ModelSim-Altera Info: # Errors: 0, Warnings: 5
+Info: NativeLink simulation flow was successful

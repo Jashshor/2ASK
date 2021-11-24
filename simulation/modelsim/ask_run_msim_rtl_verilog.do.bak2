@@ -1,0 +1,12 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog -vlog01compat -work work +incdir+F:/third/subfile {F:/third/subfile/dac_bus_out.v}
+vlog -vlog01compat -work work +incdir+F:/third {F:/third/lpm_counter1.v}
+vlog -vlog01compat -work work +incdir+F:/third {F:/third/ROM1.v}
+vlog -vlog01compat -work work +incdir+F:/third {F:/third/lpm_gate.v}
+

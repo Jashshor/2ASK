@@ -1,0 +1,116 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/lenovo/Desktop/third/simulation/modelsim
+vdac_bus_out
+Z1 !s110 1636118461
+!i10b 1
+!s100 VD>jQKWTL34ai^`_ocZ231
+IYPd7@hWEnfc?z3miJ=g;m1
+Z2 V`JN@9S9cnhjKRR_L]QIcM3
+R0
+Z3 w1635426572
+8C:/Users/lenovo/Desktop/third/subfile/dac_bus_out.v
+FC:/Users/lenovo/Desktop/third/subfile/dac_bus_out.v
+L0 5
+Z4 OV;L;10.3d;59
+r1
+!s85 0
+31
+!s108 1636118461.913000
+!s107 C:/Users/lenovo/Desktop/third/subfile/dac_bus_out.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/lenovo/Desktop/third/subfile|C:/Users/lenovo/Desktop/third/subfile/dac_bus_out.v|
+!i113 1
+Z5 o-vlog01compat -work work
+!s92 -vlog01compat -work work +incdir+C:/Users/lenovo/Desktop/third/subfile
+vlpm_counter1
+R1
+!i10b 1
+!s100 mMf@N9H9NUJ^Y0TAX_ZdU0
+IcOH]zZHHao_;A@WSY<EaO3
+R2
+R0
+R3
+8C:/Users/lenovo/Desktop/third/lpm_counter1.v
+FC:/Users/lenovo/Desktop/third/lpm_counter1.v
+Z6 L0 39
+R4
+r1
+!s85 0
+31
+!s108 1636118461.963000
+!s107 C:/Users/lenovo/Desktop/third/lpm_counter1.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/lenovo/Desktop/third|C:/Users/lenovo/Desktop/third/lpm_counter1.v|
+!i113 1
+R5
+Z7 !s92 -vlog01compat -work work +incdir+C:/Users/lenovo/Desktop/third
+vlpm_gate
+Z8 !s110 1636118462
+!i10b 1
+!s100 jBK62Z[MQiA;?8:B1ihY[0
+I?zEAQT8V6SiJGF9kzh83i3
+R2
+R0
+R3
+8C:/Users/lenovo/Desktop/third/lpm_gate.v
+FC:/Users/lenovo/Desktop/third/lpm_gate.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1636118462.081000
+!s107 C:/Users/lenovo/Desktop/third/lpm_gate.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/lenovo/Desktop/third|C:/Users/lenovo/Desktop/third/lpm_gate.v|
+!i113 1
+R5
+R7
+vROM1
+R8
+!i10b 1
+!s100 ?J>JEA5i_B>cW`]F?F@g>3
+I;b6bzFT`EoIjd9UEjkoXD0
+R2
+R0
+R3
+8C:/Users/lenovo/Desktop/third/ROM1.v
+FC:/Users/lenovo/Desktop/third/ROM1.v
+R6
+R4
+r1
+!s85 0
+31
+!s108 1636118462.013000
+!s107 C:/Users/lenovo/Desktop/third/ROM1.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/lenovo/Desktop/third|C:/Users/lenovo/Desktop/third/ROM1.v|
+!i113 1
+R5
+R7
+n@r@o@m1
+vtwoask_vlg_tst
+R8
+!i10b 1
+!s100 An9IA];n;e>KkIn9>Hnzo0
+IAkK[f>AD=RYF=7?K>IJYm3
+R2
+R0
+w1636118440
+8C:/Users/lenovo/Desktop/third/simulation/modelsim/twoask.vt
+FC:/Users/lenovo/Desktop/third/simulation/modelsim/twoask.vt
+L0 2
+R4
+r1
+!s85 0
+31
+!s108 1636118462.134000
+!s107 C:/Users/lenovo/Desktop/third/simulation/modelsim/twoask.vt|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/lenovo/Desktop/third/simulation/modelsim|C:/Users/lenovo/Desktop/third/simulation/modelsim/twoask.vt|
+!i113 1
+R5
+!s92 -vlog01compat -work work +incdir+C:/Users/lenovo/Desktop/third/simulation/modelsim

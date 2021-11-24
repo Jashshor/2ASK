@@ -1,0 +1,52 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/lenovo/Desktop/2ASK-master/simulation/modelsim
+vtwoask
+Z1 !s110 1637741785
+!i10b 1
+!s100 HfD8n_eh5f_aFc4US5OlF1
+IBG9i8J;enEXK`KnFTd1:o2
+Z2 V`JN@9S9cnhjKRR_L]QIcM3
+R0
+w1637741774
+8ask.vo
+Fask.vo
+L0 31
+Z3 OV;L;10.3d;59
+r1
+!s85 0
+31
+!s108 1637741785.762000
+!s107 ask.vo|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+.|ask.vo|
+!i113 1
+Z4 o-vlog01compat -work work
+!s92 -vlog01compat -work work +incdir+.
+vtwoask_vlg_tst
+R1
+!i10b 1
+!s100 Zbm_<@z2GAQSIo_?:IOJl3
+IQ89k0o]7N`RzkI>F<4eW12
+R2
+R0
+w1637572055
+8C:/Users/lenovo/Desktop/2ASK-master/simulation/modelsim/twoask.vt
+FC:/Users/lenovo/Desktop/2ASK-master/simulation/modelsim/twoask.vt
+L0 2
+R3
+r1
+!s85 0
+31
+!s108 1637741785.906000
+!s107 C:/Users/lenovo/Desktop/2ASK-master/simulation/modelsim/twoask.vt|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/lenovo/Desktop/2ASK-master/simulation/modelsim|C:/Users/lenovo/Desktop/2ASK-master/simulation/modelsim/twoask.vt|
+!i113 1
+R4
+!s92 -vlog01compat -work work +incdir+C:/Users/lenovo/Desktop/2ASK-master/simulation/modelsim

@@ -1,0 +1,126 @@
+
+
+D:/work/anfan_work/soft_work/XSRP_TEST/FPGA_ASK_XD/ASK/lpm_rom1.vhd
+
+Sep 19 05AM:33:37>: Megafunction LPM_ROM is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+D:/work/anfan_work/soft_work/XSRP_TEST/FPGA_ASK_XD/ASK/lpm_rom1.vhd
+
+Sep 19 05AM:33:41>: Megafunction LPM_ROM is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+D:/work/anfan_work/soft_work/XSRP_TEST/FPGA_ASK_XD/ASK/lpm_rom1.vhd
+
+Sep 19 05AM:33:51>: Megafunction LPM_ROM is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+D:/work/anfan_work/soft_work/XSRP_TEST/FPGA_ASK_XD/ASK/lpm_rom1.vhd
+
+Sep 19 05AM:34:00>: Megafunction LPM_ROM is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+D:/work/anfan_work/soft_work/XSRP_TEST/FPGA_ASK_XD/ASK/lpm_rom1.vhd
+
+Sep 19 05AM:34:43>: Megafunction LPM_ROM is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+D:/work/anfan_work/soft_work/XSRP_TEST/FPGA_ASK_XD/ASK/lpm_latch0.vhd
+
+Sep 19 05AM:34:47>: Megafunction LPM_LATCH is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+D:/work/anfan_work/soft_work/XSRP_TEST/FPGA_ASK_XD/ASK/lpm_latch0.vhd
+
+Sep 19 05AM:37:37>: Megafunction LPM_LATCH is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+D:/work/anfan_work/soft_work/XSRP_TEST/FPGA_ASK_XD/ASK/lpm_rom1.vhd
+
+Sep 19 05AM:38:23>: Megafunction LPM_ROM is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+D:/work/anfan_work/soft_work/XSRP_TEST/FPGA_ASK_XD/ASK/lpm_rom1.vhd
+
+Sep 19 05AM:38:25>: Megafunction LPM_ROM is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+D:/work/anfan_work/soft_work/XSRP_TEST/FPGA_ASK_XD/ASK/lpm_rom1.vhd
+
+Sep 19 05AM:38:27>: Megafunction LPM_ROM is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+D:/work/anfan_work/soft_work/XSRP_TEST/FPGA_ASK_XD/ASK/lpm_rom1.vhd
+
+Sep 19 05AM:39:54>: Megafunction LPM_ROM is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+D:/work/anfan_work/soft_work/XSRP_TEST/FPGA_ASK_XD/ASK/lpm_latch0.vhd
+
+Sep 19 05AM:40:17>: Megafunction LPM_LATCH is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+D:/work/anfan_work/soft_work/XSRP_TEST/FPGA_ASK_XD/ASK/lpm_rom1.vhd
+
+Sep 19 05AM:40:49>: Megafunction LPM_ROM is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+D:/work/anfan_work/soft_work/XSRP_TEST/FPGA_ASK_XD/ASK/lpm_latch0.vhd
+
+Sep 19 05AM:41:19>: Megafunction LPM_LATCH is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+D:/work/anfan_work/soft_work/XSRP_TEST/FPGA_ASK_XD/ASK/lpm_rom1.vhd
+
+Sep 29 02PM:56:01>: Megafunction LPM_ROM is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+D:/work/anfan_work/soft_work/XSRP_TEST/FPGA_ASK_XD/ASK/lpm_rom1.vhd
+
+Sep 29 02PM:56:02>: Megafunction LPM_ROM is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+D:/work/anfan_work/soft_work/XSRP_TEST/FPGA_ASK_XD/ASK/lpm_rom1.vhd
+
+Sep 29 02PM:56:03>: Megafunction LPM_ROM is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+D:/work/anfan_work/soft_work/XSRP_TEST/FPGA_ASK_XD/ASK/lpm_latch0.vhd
+
+Sep 29 02PM:56:06>: Megafunction LPM_LATCH is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+D:/work/anfan_work/soft_work/XSRP_TEST/FPGA_ASK_XD/ASK/lpm_latch0.vhd
+
+Sep 29 02PM:56:07>: Megafunction LPM_LATCH is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+D:/work/anfan_work/soft_work/XSRP_TEST/FPGA_ASK_XD/ASK/lpm_latch0.vhd
+
+Sep 29 02PM:56:19>: Megafunction LPM_LATCH is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+D:/work/anfan_work/soft_work/XSRP_TEST/FPGA_ASK_XD/ASK/lpm_latch0.vhd
+
+Sep 29 02PM:56:20>: Megafunction LPM_LATCH is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+D:/work/anfan_work/soft_work/XSRP_TEST/FPGA_ASK_XD/ASK/lpm_latch0.vhd
+
+Sep 29 02PM:56:22>: Megafunction LPM_LATCH is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+D:/work/anfan_work/soft_work/XSRP_TEST/FPGA_ASK_XD/ASK/lpm_rom1.vhd
+
+Sep 29 03PM:27:44>: Megafunction LPM_ROM is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+D:/work/anfan_work/soft_work/XSRP_TEST/FPGA_ASK_XD/ASK/lpm_rom1.vhd
+
+Sep 29 03PM:27:46>: Megafunction LPM_ROM is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+D:/work/anfan_work/soft_work/XSRP_TEST/FPGA_ASK_XD/ASK/lpm_rom1.vhd
+
+Sep 29 03PM:28:01>: Megafunction LPM_ROM is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted

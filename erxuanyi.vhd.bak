@@ -1,0 +1,42 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.std_logic_unsigned.all;
+use ieee.std_logic_arith.all;
+
+entity erxuanyi is
+  --generic(n: integer:=6);    --fen pin xi shu de yi ban
+port(
+	sig1: in std_logic;
+	sig2: in std_logic;
+	clk : in std_logic;
+	  sig_out: out std_logic
+	  );
+end erxuanyi;
+
+architecture erxuanyi_1 of erxuanyi is
+	--signal temp: std_logic;    
+	--signal cnt: integer range 0 to n/2-1;  --fen pin xi shu de yi ban
+begin
+	process(clk)
+begin
+	if rising_edge(clk) then
+--		if (cnt = n/2-1) then
+--			cnt<=0;
+--			temp<=not temp;
+--		else
+--			cnt<=cnt+1;
+--		end if;
+sigout<=sig1;
+	end if;
+	if falling_edge(clk) then
+--		if (cnt = n/2-1) then
+--			cnt<=0;
+--			temp<=not temp;
+--		else
+--			cnt<=cnt+1;
+--		end if;
+sigout<=sig2;
+	end if;
+end process;
+
+end erxuanyi_1;

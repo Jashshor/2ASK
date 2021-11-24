@@ -1,0 +1,46 @@
+--------------------------------------------------------------------------------------
+Timing Analyzer Summary
+--------------------------------------------------------------------------------------
+
+Type           : Worst-case tco
+Slack          : N/A
+Required Time  : None
+Actual Time    : 23.197 ns
+From           : lpm_latch0:inst16|lpm_latch:lpm_latch_component|latches[6]
+To             : 2_ask[6]
+From Clock     : clk
+To Clock       : --
+Failed Paths   : 0
+
+Type           : Clock Setup: 'clk'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 193.84 MHz ( period = 5.159 ns )
+From           : fenpin:inst1|74161:inst|f74161:sub|87
+To             : fenpin:inst1|74161:inst5|f74161:sub|99
+From Clock     : clk
+To Clock       : clk
+Failed Paths   : 0
+
+Type           : Clock Hold: 'clk'
+Slack          : Not operational: Clock Skew > Data Delay
+Required Time  : None
+Actual Time    : N/A
+From           : lpm_rom1:inst7|altsyncram:altsyncram_component|altsyncram_hl21:auto_generated|q_a[6]
+To             : lpm_latch0:inst16|lpm_latch:lpm_latch_component|latches[6]
+From Clock     : clk
+To Clock       : clk
+Failed Paths   : 8
+
+Type           : Total number of failed paths
+Slack          : 
+Required Time  : 
+Actual Time    : 
+From           : 
+To             : 
+From Clock     : 
+To Clock       : 
+Failed Paths   : 8
+
+--------------------------------------------------------------------------------------
+

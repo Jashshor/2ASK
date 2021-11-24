@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="ask">
+		<CBX_INST_ENTRY INSTANCE_NAME="|twoask|ROM1:inst9|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_emb1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|twoask|lpm_counter1:inst3|lpm_counter:LPM_COUNTER_component" CBX_FILE_NAME="cntr_8th.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

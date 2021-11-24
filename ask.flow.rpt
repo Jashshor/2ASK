@@ -1,0 +1,172 @@
+Flow report for ask
+Wed Nov 24 16:16:14 2021
+Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Version
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. EDA Netlist Writer Summary
+  2. Legal Notice
+  3. Flow Summary
+  4. Flow Settings
+  5. Flow Non-Default Global Settings
+  6. Flow Elapsed Time
+  7. Flow OS Summary
+  8. Flow Log
+  9. Flow Messages
+ 10. Flow Suppressed Messages
+
+
+
++-------------------------------------------------------------------+
+; EDA Netlist Writer Summary                                        ;
++---------------------------+---------------------------------------+
+; EDA Netlist Writer Status ; Successful - Wed Nov 24 16:16:14 2021 ;
+; Revision Name             ; ask                                   ;
+; Top-level Entity Name     ; twoask                                ;
+; Family                    ; Cyclone IV GX                         ;
+; Simulation Files Creation ; Successful                            ;
++---------------------------+---------------------------------------+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++---------------------------------------------------------------------------------------+
+; Flow Summary                                                                          ;
++------------------------------------+--------------------------------------------------+
+; Flow Status                        ; Successful - Wed Nov 24 16:16:14 2021            ;
+; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Full Version ;
+; Revision Name                      ; ask                                              ;
+; Top-level Entity Name              ; twoask                                           ;
+; Family                             ; Cyclone IV GX                                    ;
+; Device                             ; EP4CGX75CF23I7                                   ;
+; Timing Models                      ; Final                                            ;
+; Total logic elements               ; 244 / 73,920 ( < 1 % )                           ;
+;     Total combinational functions  ; 219 / 73,920 ( < 1 % )                           ;
+;     Dedicated logic registers      ; 153 / 73,920 ( < 1 % )                           ;
+; Total registers                    ; 153                                              ;
+; Total pins                         ; 45 / 307 ( 15 % )                                ;
+; Total virtual pins                 ; 0                                                ;
+; Total memory bits                  ; 1,024 / 4,257,792 ( < 1 % )                      ;
+; Embedded Multiplier 9-bit elements ; 0 / 396 ( 0 % )                                  ;
+; Total GXB Receiver Channel PCS     ; 0 / 4 ( 0 % )                                    ;
+; Total GXB Receiver Channel PMA     ; 0 / 4 ( 0 % )                                    ;
+; Total GXB Transmitter Channel PCS  ; 0 / 4 ( 0 % )                                    ;
+; Total GXB Transmitter Channel PMA  ; 0 / 4 ( 0 % )                                    ;
+; Total PLLs                         ; 0 / 6 ( 0 % )                                    ;
++------------------------------------+--------------------------------------------------+
+
+
++-----------------------------------------+
+; Flow Settings                           ;
++-------------------+---------------------+
+; Option            ; Setting             ;
++-------------------+---------------------+
+; Start date & time ; 11/24/2021 16:15:43 ;
+; Main task         ; Compilation         ;
+; Revision Name     ; ask                 ;
++-------------------+---------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                                      ;
++------------------------------------------------+---------------------------------------+---------------+-------------+----------------+
+; Assignment Name                                ; Value                                 ; Default Value ; Entity Name ; Section Id     ;
++------------------------------------------------+---------------------------------------+---------------+-------------+----------------+
+; COMPILER_SIGNATURE_ID                          ; 168202117804112.163774174313460       ; --            ; --          ; --             ;
+; EDA_DESIGN_INSTANCE_NAME                       ; twoask                                ; --            ; --          ; twoask         ;
+; EDA_ENABLE_GLITCH_FILTERING                    ; Off                                   ; --            ; --          ; eda_simulation ;
+; EDA_GENERATE_FUNCTIONAL_NETLIST                ; On                                    ; --            ; --          ; eda_simulation ;
+; EDA_GENERATE_RTL_SIMULATION_COMMAND_SCRIPT     ; On                                    ; --            ; --          ; eda_simulation ;
+; EDA_NATIVELINK_SIMULATION_TEST_BENCH           ; twoask                                ; --            ; --          ; eda_simulation ;
+; EDA_OUTPUT_DATA_FORMAT                         ; Verilog Hdl                           ; --            ; --          ; eda_simulation ;
+; EDA_RUN_TOOL_AUTOMATICALLY                     ; On                                    ; --            ; --          ; eda_simulation ;
+; EDA_SIMULATION_TOOL                            ; ModelSim-Altera (Verilog)             ; <None>        ; --          ; --             ;
+; EDA_TEST_BENCH_ENABLE_STATUS                   ; TEST_BENCH_MODE                       ; --            ; --          ; eda_simulation ;
+; EDA_TEST_BENCH_FILE                            ; simulation/modelsim/twoask.vt         ; --            ; --          ; twoask         ;
+; EDA_TEST_BENCH_MODULE_NAME                     ; twoask_vlg_tst                        ; --            ; --          ; twoask         ;
+; EDA_TEST_BENCH_NAME                            ; twoask                                ; --            ; --          ; eda_simulation ;
+; EDA_TEST_BENCH_RUN_SIM_FOR                     ; 1000 us                               ; --            ; --          ; twoask         ;
+; EDA_TIME_SCALE                                 ; 1 ps                                  ; --            ; --          ; eda_simulation ;
+; EDA_USER_COMPILED_SIMULATION_LIBRARY_DIRECTORY ; F:\ModelSim\CycloneLib                ; --            ; --          ; eda_simulation ;
+; ENABLE_SIGNALTAP                               ; On                                    ; --            ; --          ; --             ;
+; IP_TOOL_NAME                                   ; LPM_COUNTER                           ; --            ; --          ; --             ;
+; IP_TOOL_NAME                                   ; LPM_COUNTER                           ; --            ; --          ; --             ;
+; IP_TOOL_NAME                                   ; ROM: 1-PORT                           ; --            ; --          ; --             ;
+; IP_TOOL_VERSION                                ; 11.0                                  ; --            ; --          ; --             ;
+; IP_TOOL_VERSION                                ; 13.0                                  ; --            ; --          ; --             ;
+; IP_TOOL_VERSION                                ; 13.0                                  ; --            ; --          ; --             ;
+; MAX_CORE_JUNCTION_TEMP                         ; 100                                   ; --            ; --          ; --             ;
+; MIN_CORE_JUNCTION_TEMP                         ; -40                                   ; --            ; --          ; --             ;
+; MISC_FILE                                      ; lpm_counter0.bsf                      ; --            ; --          ; --             ;
+; MISC_FILE                                      ; lpm_counter0_bb.v                     ; --            ; --          ; --             ;
+; MISC_FILE                                      ; lpm_counter1.bsf                      ; --            ; --          ; --             ;
+; MISC_FILE                                      ; lpm_counter1_bb.v                     ; --            ; --          ; --             ;
+; MISC_FILE                                      ; ROM1_bb.v                             ; --            ; --          ; --             ;
+; PARTITION_COLOR                                ; 16764057                              ; --            ; twoask      ; Top            ;
+; PARTITION_FITTER_PRESERVATION_LEVEL            ; PLACEMENT_AND_ROUTING                 ; --            ; twoask      ; Top            ;
+; PARTITION_NETLIST_TYPE                         ; SOURCE                                ; --            ; twoask      ; Top            ;
+; POWER_BOARD_THERMAL_MODEL                      ; None (CONSERVATIVE)                   ; --            ; --          ; --             ;
+; POWER_PRESET_COOLING_SOLUTION                  ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW ; --            ; --          ; --             ;
+; TOP_LEVEL_ENTITY                               ; twoask                                ; ask           ; --          ; --             ;
+; USE_GENERATED_PHYSICAL_CONSTRAINTS             ; Off                                   ; --            ; --          ; eda_blast_fpga ;
+; USE_SIGNALTAP_FILE                             ; stp1.stp                              ; --            ; --          ; --             ;
++------------------------------------------------+---------------------------------------+---------------+-------------+----------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                             ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Synthesis      ; 00:00:04     ; 1.0                     ; 4708 MB             ; 00:00:04                           ;
+; Fitter                    ; 00:00:11     ; 1.5                     ; 5621 MB             ; 00:00:16                           ;
+; Assembler                 ; 00:00:04     ; 1.0                     ; 4625 MB             ; 00:00:05                           ;
+; TimeQuest Timing Analyzer ; 00:00:03     ; 1.0                     ; 4760 MB             ; 00:00:03                           ;
+; EDA Netlist Writer        ; 00:00:04     ; 1.0                     ; 4606 MB             ; 00:00:02                           ;
+; Total                     ; 00:00:26     ; --                      ; --                  ; 00:00:30                           ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+
+
++----------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                        ;
++---------------------------+------------------+-----------+------------+----------------+
+; Module Name               ; Machine Hostname ; OS Name   ; OS Version ; Processor type ;
++---------------------------+------------------+-----------+------------+----------------+
+; Analysis & Synthesis      ; DESKTOP-C1AJJQC  ; Windows 7 ; 6.2        ; x86_64         ;
+; Fitter                    ; DESKTOP-C1AJJQC  ; Windows 7 ; 6.2        ; x86_64         ;
+; Assembler                 ; DESKTOP-C1AJJQC  ; Windows 7 ; 6.2        ; x86_64         ;
+; TimeQuest Timing Analyzer ; DESKTOP-C1AJJQC  ; Windows 7 ; 6.2        ; x86_64         ;
+; EDA Netlist Writer        ; DESKTOP-C1AJJQC  ; Windows 7 ; 6.2        ; x86_64         ;
++---------------------------+------------------+-----------+------------+----------------+
+
+
+------------
+; Flow Log ;
+------------
+quartus_map --read_settings_files=on --write_settings_files=off ask -c ask
+quartus_fit --read_settings_files=off --write_settings_files=off ask -c ask
+quartus_asm --read_settings_files=off --write_settings_files=off ask -c ask
+quartus_sta ask -c ask
+quartus_eda --read_settings_files=off --write_settings_files=off ask -c ask
+
+
+

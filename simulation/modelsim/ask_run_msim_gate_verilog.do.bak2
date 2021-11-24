@@ -1,0 +1,24 @@
+transcript on
+vmap altera_mf_ver F:/ModelSim/CycloneLib/verilog_libs/altera_mf_ver
+vmap altera_ver F:/ModelSim/CycloneLib/verilog_libs/altera_ver
+vmap lpm_ver F:/ModelSim/CycloneLib/verilog_libs/lpm_ver
+vmap sgate_ver F:/ModelSim/CycloneLib/verilog_libs/sgate_ver
+vmap cycloneiv_hssi_ver F:/ModelSim/CycloneLib/verilog_libs/cycloneiv_hssi_ver
+vmap cycloneiv_pcie_hip_ver F:/ModelSim/CycloneLib/verilog_libs/cycloneiv_pcie_hip_ver
+vmap cycloneiv_ver F:/ModelSim/CycloneLib/verilog_libs/cycloneiv_ver
+if {[file exists gate_work]} {
+	vdel -lib gate_work -all
+}
+vlib gate_work
+vmap work gate_work
+
+vlog -vlog01compat -work work +incdir+. {ask.vo}
+
+vlog -vlog01compat -work work +incdir+C:/Users/lenovo/Desktop/third/simulation/modelsim {C:/Users/lenovo/Desktop/third/simulation/modelsim/twoask.vt}
+
+vsim -t 1ps -L altera_mf_ver -L altera_ver -L lpm_ver -L sgate_ver -L cycloneiv_hssi_ver -L cycloneiv_pcie_hip_ver -L cycloneiv_ver -L gate_work -L work -voptargs="+acc"  twoask
+
+add wave *
+view structure
+view signals
+run 1000 us

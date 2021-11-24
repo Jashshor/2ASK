@@ -1,0 +1,20 @@
+Fitter Status : Successful - Wed Nov 24 16:15:59 2021
+Quartus II 64-Bit Version : 13.0.1 Build 232 06/12/2013 SP 1 SJ Full Version
+Revision Name : ask
+Top-level Entity Name : twoask
+Family : Cyclone IV GX
+Device : EP4CGX75CF23I7
+Timing Models : Final
+Total logic elements : 244 / 73,920 ( < 1 % )
+    Total combinational functions : 219 / 73,920 ( < 1 % )
+    Dedicated logic registers : 153 / 73,920 ( < 1 % )
+Total registers : 153
+Total pins : 45 / 307 ( 15 % )
+Total virtual pins : 0
+Total memory bits : 1,024 / 4,257,792 ( < 1 % )
+Embedded Multiplier 9-bit elements : 0 / 396 ( 0 % )
+Total GXB Receiver Channel PCS : 0 / 4 ( 0 % )
+Total GXB Receiver Channel PMA : 0 / 4 ( 0 % )
+Total GXB Transmitter Channel PCS : 0 / 4 ( 0 % )
+Total GXB Transmitter Channel PMA : 0 / 4 ( 0 % )
+Total PLLs : 0 / 6 ( 0 % )
